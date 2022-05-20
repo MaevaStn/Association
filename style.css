@@ -1,0 +1,180 @@
+body {
+    margin: auto;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 90%;
+}
+
+
+.menu-bouton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: 'Baumans', cursive;
+    padding-left: 50px;
+}
+
+#logo {
+    display: flex;
+
+    height: 100px;
+}
+
+.filtresEns {
+    float: right;
+}
+
+.fa-solid.fa-child-reaching {
+    background-color: #f4e5bc;
+    padding: 17px;
+    border-radius: 24px;
+    margin-right: 5px;
+}
+
+.fa-solid, .fas {
+    background-color: #f4e5bc;
+    padding: 17px;
+    border-radius: 24px;
+    margin-right: 5px;
+    color: #ff4500;
+}
+
+span.filtre-box {
+    border: 2px solid #efebeb;
+    border-radius: 30px;
+    padding: 15px 10px 15px 0px;
+    margin-right: 10px;
+    height: 30px;
+}
+
+span.filtre-box:hover{
+    background-color: #ff4500;
+    color: white;
+}
+
+.nav {
+    width: 100%;
+}
+
+nav li {
+    font-size: 16px;
+}
+
+ul{
+    background-color: black;
+    justify-content: space-around;
+    margin-left: 50px;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+    height: 100%;
+    margin-bottom: 20px;
+    width: 100%;
+    height: 50px;
+}
+
+li {
+    height: 50px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Baumans', cursive;
+}
+
+li:hover {
+    background-color: #ff4500;
+}
+
+.element {
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    margin-left: 50px;
+    width: 100%;
+}
+
+.titre-activites {
+    padding-top: 5px;
+    margin-left: 20px;
+}
+
+#activites {
+    background-color: #F0F0F0;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 230px;
+}
+
+.activites {
+    display: flex;
+    padding: 50px;
+    width: 100%;
+}
+
+.activite {
+    height: 190px;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
+    background-color: #F0F0F0;
+    margin-right: 20px;
+    margin-left: 45px;
+    margin-bottom: 30px;
+    width: 350px;
+}
+
+.activite:hover {
+    background-color: white;
+}
+
+.activiteimg {
+    height: 100px;
+    width: 340px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin-top: 5px;
+    margin-left: 5px;
+    object-fit:cover;
+}
+
+.infoactivite {
+    color: black;
+    margin-left: 6px;
+    margin-top: 0;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.prix {
+    font-weight: bold;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    height: 60px;
+    justify-content: center;
+    width: 100%;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.footer-title {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Arial, sans-serif;
+}
